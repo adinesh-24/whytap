@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+    <h1>Register</h1>
+    <form>
+        <!-- First & Last Name -->
+        <div>
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="fname" placeholder="First Name">
+        </div>
+        <div>
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lname" placeholder="Last Name">
+        </div>
+
+        <!-- Gender -->
+        <div class="gender-group">
+            <label>Gender</label>
+            <div class="gender-options">
+                <input type="radio" name="gender" id="male" value="male">
+                <label for="male">Male</label>
+
+                <input type="radio" name="gender" id="female" value="female">
+                <label for="female">Female</label>
+            </div>
+        </div>
+
+        <!-- Email -->
+        <div>
+            <label for="email">Email Id</label>
+            <input type="email" id="email" name="email" placeholder="Enter Email Id">
+        </div>
+
+        <!-- Mobile -->
+        <div>
+            <label for="mobile">Mobile</label>
+            <input type="text" id="mobile" name="mobile" placeholder="+91XXXXXXXXXX">
+        </div>
+
+        <!-- Button -->
+        <div>
+            <button type="submit">Register</button>
+        </div>
+    </form>
+</body>
+</html>
